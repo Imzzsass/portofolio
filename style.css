@@ -1,0 +1,133 @@
+/* Resetting default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Main styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1b1b2f;
+    color: #eaeaea;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    padding: 2rem;
+}
+
+/* Header */
+header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #ff4c60;
+}
+
+header p {
+    font-size: 1.2rem;
+    color: #c3c4d1;
+}
+
+/* Container */
+.container {
+    max-width: 900px;
+    width: 100%;
+    background-color: #232946;
+    border-radius: 10px;
+    padding: 2rem;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease-in-out;
+}
+
+/* Profile Picture */
+.profile-pic {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid #ff4c60;
+    margin: 0 auto;
+    display: block;
+    transition: transform 0.3s;
+}
+
+.profile-pic:hover {
+    transform: scale(1.1);
+}
+
+/* Section Titles */
+h2 {
+    color: #ff4c60;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+/* About Section */
+.about p {
+    text-align: center;
+    font-size: 1.1rem;
+    color: #eaeaea;
+    line-height: 1.6;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/* Skills Section */
+.skills ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    list-style: none;
+    padding: 0;
+}
+
+.skills li {
+    background-color: #393e6f;
+    padding: 0.7rem 1.5rem;
+    border-radius: 20px;
+    color: #eaeaea;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+.skills li:hover {
+    background-color: #ff4c60;
+    color: #fff;
+}
+.projects h2{
+    margin-top: 25px;
+}
+
+/* Projects Section */
+.projects ul {
+    list-style: none;
+    padding: 0;
+}
+
+.projects li {
+    background-color: #232946;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    color: #c3c4d1;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.projects li:hover {
+    background-color: #ff4c60;
+    color: #fff;
+    transform: translateY(-5px);
+}
+
+.projects li strong {
+    display: block;
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+}
